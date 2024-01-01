@@ -13,7 +13,8 @@ public class rock_paper_scissors {
         int computerintput = random.nextInt(3); // 0.rock 1.paper 2.scissors
         if (userinput == computerintput) {
             System.out.println("Draw!");
-        } else if (userinput == 0 && computerintput == 2 || userinput == 1 && computerintput == 0
+        } 
+        else if (userinput == 0 && computerintput == 2 || userinput == 1 && computerintput == 0
                 || userinput == 2 && computerintput == 1) {
             System.out.println("You win!");
         } 
