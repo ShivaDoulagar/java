@@ -18,7 +18,7 @@ public class linear {
             }
         }
         if (array[n-1]!=key){
-            System.out.println("The key is not present in the given elements");
+            System.out.println("The key is not present in the given elements");   
         }
     }
 }
