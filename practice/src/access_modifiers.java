@@ -5,6 +5,8 @@ public class access_modifiers {
         shiva.setrollNo(69);
         shiva.setdobyear(2004);
         System.out.println(shiva.getname());
+        System.out.println(shiva.getrollNo());
+        System.out.println(shiva.getdobyear());
     }
 }
 
