@@ -1,35 +1,34 @@
-public class access_modifiers {
+public class access_modifiers{
     public static void main(String[] args) {
-        cse shiva = new cse();
-        shiva.setname("shiva");
-        shiva.setrollNo(69);
-        shiva.setdobyear(2004);
-        System.out.println(shiva.getname());
-        System.out.println(shiva.getrollNo());
-        System.out.println(shiva.getdobyear());
+        student shiva = new student();
+        shiva.setname("Shiva");
+        shiva.setrollno(69);
+        shiva.setdob(2004);
+        System.out.println("The name of the student is "+shiva.getname());
+        System.out.println("The year of the birth of "+shiva.getname()+" is "+shiva.getdob());
+        System.out.println("The rollNo of "+shiva.getname()+" is "+shiva.getrollno());
     }
 }
-
-class cse{
+class student{
     private String name;
-    private int dobyear;
-    public int rollNo;
-    public void setname(String n){
-        this.name = n;
+    private int dob;
+    private int rollno;
+    public void setname(String a){
+        this.name=a;
     }
     public String getname(){
         return name;
     }
-    public void setdobyear(int n){
-        this.dobyear=n;
+    public void setdob(int n){
+        this.dob = n;
     }
-    public int getdobyear(){
-        return dobyear;
+    public int getdob(){
+        return dob;
     }
-    public void setrollNo(int a){
-        this.rollNo = a;
+    public void setrollno(int m){
+        this.rollno = m;
     }
-    public int getrollNo(){
-        return rollNo;
+    public int getrollno(){
+        return rollno;   
     }
 }
