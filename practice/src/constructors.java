@@ -1,6 +1,6 @@
 public class constructors {
     public static void main(String[] args) {
-        mum d = new mum();
+        mum d = new mum(2,5);
     }
 }
 
@@ -14,7 +14,11 @@ class dad{
 }
 class mum extends dad{
     mum(){
-        super(0);//if we pass using super key word then the dad's class overloaded methord will be called
+        //super(0);        //if we pass using super key word then the dad's class overloaded methord will be called
         System.out.println("I am from mum's class");
+    }
+    mum(int a ,int b){
+        super(a);
+        System.out.println("I am the derived overloaded constructor with value: "+b);
     }
 }
