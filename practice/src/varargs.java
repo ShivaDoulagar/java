@@ -61,7 +61,7 @@ public class varargs{
     }
 }
 class A{
-    static int sum(int ...array){
+    int sum(int ...array){
         int result =0;
         for (int a :array){
             result +=a;
