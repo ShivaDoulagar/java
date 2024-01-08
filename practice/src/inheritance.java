@@ -46,4 +46,5 @@ class derived extends base{
     public int gety(){
         return y;
     }
+    
 }
