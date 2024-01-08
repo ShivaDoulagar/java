@@ -37,13 +37,3 @@ class myclass extends WindowAdapter {
         System.exit(0);
     }
 }
-// Label l1, l2;
-// l1 = new Label("User Name");
-// l1.setBounds(50, 100, 100, 30);
-// l2 = new Label("Password");
-// l2.setBounds(50, 150, 100, 30);
-// f.add(l1);
-// f.add(l2);
-// f.setSize(400, 400);
-// f.setLayout(null);
-// f.setVisible(true);
