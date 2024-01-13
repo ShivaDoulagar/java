@@ -10,9 +10,9 @@ public class frame {
         pass = new Label("Password");
         pass.setBounds(50,125,100,30);
         TextField user,pas;
-        user = new TextField("Username");
+        user = new TextField();
         user.setBounds(125, 75, 200, 30);
-        pas = new TextField("Password");
+        pas = new TextField();
         pas.setBounds(125, 125, 200, 30);
         Button lo,ca;
         lo = new Button("Login");
