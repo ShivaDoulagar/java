@@ -9,7 +9,7 @@ public class default_methords {
 interface kindergarden{
     void classA();
     void classB();
-    default void classC(){
+    default void classC(){ 
         System.out.println("I am from class C");
     }
 }
@@ -29,5 +29,8 @@ class school extends lower_School implements kindergarden{
     }
     public void classB(){
         System.out.println("I am form class B");
+    }
+    public void classC(){
+        System.out.println("Hey! i am form class C and you?");
     }
 }
